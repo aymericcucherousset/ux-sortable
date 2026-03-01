@@ -5,3 +5,5 @@
 
 /vendor
 /.php-cs-fixer.cache
+
+/assets/node_modules

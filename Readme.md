@@ -102,7 +102,7 @@ You can still access the controller manually if needed:
 - [ ] Emit custom events  
 - [ ] Integration with Symfony UX LiveComponent
 - [ ] Nested sortable support
-- [ ] TypeScript support
+- [x] TypeScript support
 - [ ] Auto persistence helper
 
 ## Versioning

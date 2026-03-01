@@ -20,5 +20,15 @@
   "peerDependencies": {
     "@hotwired/stimulus": "^3.0.0",
     "sortablejs": "^1.15.7"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "tsup src/ --format esm --out-dir ./dist"
+  },
+  "dependencies": {
+    "@types/sortablejs": "^1.15.9"
   }
 }
