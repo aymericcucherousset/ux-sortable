@@ -1,0 +1,24 @@
+{
+  "name": "@aymericcucherousset/ux-sortable",
+  "description": "SortableJS integration for Symfony UX",
+  "license": "MIT",
+  "version": "0.1.0",
+  "type": "module",
+  "symfony": {
+    "controllers": {
+      "sortable": {
+        "main": "dist/controller.js",
+        "fetch": "eager",
+        "enabled": true
+      }
+    },
+    "importmap": {
+      "@hotwired/stimulus": "^3.0.0",
+      "sortablejs": "^1.15.7"
+    }
+  },
+  "peerDependencies": {
+    "@hotwired/stimulus": "^3.0.0",
+    "sortablejs": "^1.15.7"
+  }
+}
