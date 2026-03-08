@@ -42,11 +42,12 @@ class SortableExtension extends AbstractExtension
             '@aymericcucherousset/ux-sortable/sortable',
             [
                 'options' => $normalizedOptions,
+                'prefix' => $attributes['prefix'] ?? 'sortable',
             ]
         );
 
         foreach ($attributes as $name => $value) {
-            if ('data-controller' === $name) {
+            if (in_array($name, ['data-controller', 'live'], true)) {
                 continue;
             }
 

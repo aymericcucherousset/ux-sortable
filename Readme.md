@@ -100,7 +100,7 @@ You can still access the controller manually if needed:
 ## Roadmap
 
 - [ ] Emit custom events  
-- [ ] Integration with Symfony UX LiveComponent
+- [x] Integration with Symfony UX LiveComponent
 - [ ] Nested sortable support
 - [x] TypeScript support
 - [ ] Auto persistence helper

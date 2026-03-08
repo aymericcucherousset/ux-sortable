@@ -29,6 +29,7 @@
     "build": "tsup src/ --format esm --out-dir ./dist"
   },
   "dependencies": {
+    "@symfony/ux-live-component": "^2.32.0",
     "@types/sortablejs": "^1.15.9"
   }
 }
